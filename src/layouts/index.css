@@ -1,0 +1,46 @@
+.sidebar {
+  text-align: center;
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1c262b;
+}
+
+.sidebar a {
+  text-transform: uppercase;
+  margin: 20px 0;
+  padding: 0 0 10px 0;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  /* border-bottom: 1px solid #818181; */
+}
+
+.sidebar a > span {
+  font-size: 25px;
+  margin: 15px;
+  display: block;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.avatar {
+  width: 100%;
+}
+.avatar img {
+  display:block;
+  width: 100%;
+}
+
+.avatar div {
+  text-transform: uppercase;
+  padding: 5px;
+  color: white;
+  background: teal;
+}
