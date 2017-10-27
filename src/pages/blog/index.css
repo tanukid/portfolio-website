@@ -1,0 +1,12 @@
+#blog {
+  margin: auto;
+  width: 95%;
+  text-align:center;
+}
+
+#blog-heading {
+  margin: 5%;
+  text-transform: uppercase;
+}
+
+

@@ -1,0 +1,10 @@
+#portfolio {
+  margin: auto;
+  width: 95%;
+  text-align:center;
+}
+
+#portfolio-heading {
+  margin: 5%;
+  text-transform: uppercase;
+}

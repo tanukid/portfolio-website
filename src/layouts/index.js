@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import FontAwesome from 'react-fontawesome';
 
 import './index.css'
+import 'font-awesome/css/font-awesome.css'
 
 const Avatar = () => (
   <div className="avatar">
@@ -13,30 +14,31 @@ const Avatar = () => (
   </div>
 );
 
-
 const Sidebar = () => (
-  <div className="sidebar">
+  <div id="sidebar">
     <Avatar />
-    <a href="#"><FontAwesome name='home' />Home</a>
-    <a href="#"><FontAwesome name='user' />About</a>
-    <a href="#"><FontAwesome name='cubes' />Portfolio</a>
-    <a href="#"><FontAwesome name='pencil' />Blog</a>
-    <a href="#"><FontAwesome name='envelope' />Contact</a>
+    <Link activeClassName="active" exact to="/"><FontAwesome size='5x' name='home' />Home</Link>
+    <Link activeClassName="active" to="/about/"><FontAwesome size='5x' name='user' />About</Link>
+    <Link activeClassName="active" to="/portfolio/"><FontAwesome size='5x' name='cubes' />Portfolio</Link>
+    <Link activeClassName="active" to="/blog/"><FontAwesome size='5x'name='pencil' />Blog</Link>
+    <Link activeClassName="active" to="/contact/"><FontAwesome size='5x' name='envelope' />Contact</Link>
   </div>
 )
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Daniel Hollcraft"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Home' },
+        { name: 'keywords', content: 'Daniel Hollcraft' },
       ]}
     />
     <div>
       <Sidebar />
-      {children()}
+      <div id='content'>
+        {children()}
+      </div>
     </div>
   </div>
 )

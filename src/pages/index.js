@@ -1,8 +1,9 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import './index.css';
 
 const IndexPage = () => (
-  <div>
+  <div id="home">
   </div>
 )
 
