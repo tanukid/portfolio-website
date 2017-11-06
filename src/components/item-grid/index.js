@@ -4,13 +4,13 @@ import FontAwesome from 'react-fontawesome';
 import './index.css';
 
 const ItemGrid = () => (
-    <section id="items">
-      <div><img src="http://via.placeholder.com/350x350" alt="Cute cat" /></div>
-      <div><img src="http://via.placeholder.com/350x350" alt="Cute cat" /></div>
-      <div><img src="http://via.placeholder.com/350x350" alt="Cute cat" /></div>
-      <div><img src="http://via.placeholder.com/350x350" alt="Cute cat" /></div>
-      <div><img src="http://via.placeholder.com/350x350" alt="Cute cat" /></div>
-    </section>
+<section id="items">
+  <div><img src="http://via.placeholder.com/350x350" alt="Cute cat" /></div>
+  <div><img src="http://via.placeholder.com/350x350" alt="Cute cat" /></div>
+  <div><img src="http://via.placeholder.com/350x350" alt="Cute cat" /></div>
+  <div><img src="http://via.placeholder.com/350x350" alt="Cute cat" /></div>
+  <div><img src="http://via.placeholder.com/350x350" alt="Cute cat" /></div>
+  </section>
 )
 
 export default ItemGrid;
